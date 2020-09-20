@@ -1,0 +1,127 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+/*reset*/
+:root {
+  --color-white: #ffffff;
+  --color-blue: #2196f3;
+  --color-black: #212121;
+  --color-gray: #757575;
+  --color-night: #2f303a;
+  --color-blue-gray: #f5f4fa;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-blue);
+}
+.color__black {
+  color: var(--color-black);
+}
+.color__white {
+  color: var(--color-white);
+}
+
+/*header*/
+.header {
+  background-color: var(--color-white);
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 31px 0;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__list {
+  display: flex;
+  padding-left: 93px;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link .link__static {
+  color: var(--color-black);
+}
+.link .link__active {
+  color: var(--color-blue);
+}
+.link a:hover,
+.link a:focus {
+  color: var(--color-blue);
+}
+
+.link:not(:last-child) {
+  padding-right: 50px;
+}
+
+.header-contacts {
+  display: flex;
+}
+
+.header-contacts li a {
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*header*/
+
+/*footer*/
+.footer {
+  background-color: var(--color-night);
+  padding: 60px 0;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-list li:not(:last-child) {
+  padding-bottom: 9px;
+}
+.footer-list__street {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.footer-list__contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*footer*/

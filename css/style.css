@@ -1,0 +1,240 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+/*reset*/
+
+:root {
+  --color-white: #ffffff;
+  --color-blue: #2196f3;
+  --color-black: #212121;
+  --color-gray: #757575;
+  --color-night: #2f303a;
+  --color-blue-gray: #f5f4fa;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-blue);
+}
+.color__black {
+  color: var(--color-black);
+}
+.color__white {
+  color: var(--color-white);
+}
+
+.title {
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/*header*/
+.header {
+  background-color: var(--color-white);
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 31px 0;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__list {
+  display: flex;
+  padding-left: 93px;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link__static {
+  color: var(--color-black);
+}
+.link a:hover,
+.link a:focus {
+  color: var(--color-blue);
+}
+
+.link:not(:last-child) {
+  padding-right: 50px;
+}
+
+.header-contacts {
+  display: flex;
+}
+
+.header-contacts li a {
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*header*/
+
+/*main*/
+
+/*hero*/
+.hero {
+  max-height: 600px;
+  background-color: var(--color-night);
+  padding: 200px 0;
+}
+.hero__title {
+  color: var(--color-white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  display: block;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 10px 32px;
+  border: 0px;
+  border-radius: 4px;
+  margin: 30px auto 0;
+}
+
+/*hero*/
+
+/*features*/
+.features {
+  padding: 94px 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.features-item {
+  max-width: 270px;
+}
+.features-item__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.features-item__text {
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/*features*/
+
+/*occupation*/
+.occupation {
+  padding-bottom: 94px;
+}
+.occupation__images {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 0 0;
+}
+/*occupation*/
+
+/*team*/
+.team {
+  background-color: var(--color-blue-gray);
+  padding: 94px 0;
+}
+.team ul {
+  margin-top: 50px;
+}
+.team-item {
+  text-align: center;
+  background-color: var(--color-white);
+  border-radius: 2px;
+}
+.team-item__name {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.team-item__position {
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  padding-bottom: 30px;
+}
+/*team*/
+/*main*/
+
+/*footer*/
+.footer {
+  background-color: var(--color-night);
+  padding: 60px 0;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-list li:not(:last-child) {
+  padding-bottom: 9px;
+}
+.footer-list__street {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.footer-list__contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*footer*/
