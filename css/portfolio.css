@@ -136,6 +136,7 @@ ul {
   margin: -15px;
 }
 .portfolio-table-item {
+  display: block;
   margin: 14px;
   border: 1px solid #eeeeee;
 }

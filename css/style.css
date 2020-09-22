@@ -81,6 +81,10 @@ ul {
 .link__static {
   color: var(--color-black);
 }
+
+.link .link__active {
+  color: var(--color-blue);
+}
 .link a:hover,
 .link a:focus {
   color: var(--color-blue);
