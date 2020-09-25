@@ -180,6 +180,10 @@ ul {
   justify-content: space-between;
   margin-top: 50px;
 }
+
+.occupation__images li:not(:last-child) {
+  margin-right: 30px;
+}
 /*occupation*/
 
 /*team*/
@@ -194,6 +198,9 @@ ul {
   text-align: center;
   background-color: var(--color-white);
   border-radius: 2px;
+}
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 .team-item__name {
   color: var(--color-black);
