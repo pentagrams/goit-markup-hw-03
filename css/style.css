@@ -57,15 +57,16 @@ ul {
 .header {
   background-color: var(--color-white);
 }
-.header-wrapper {
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 31px 0;
-}
-.header-nav {
-  display: flex;
-  align-items: center;
 }
 
 .header-nav__list {
