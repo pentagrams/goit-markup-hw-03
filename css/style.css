@@ -227,7 +227,7 @@ ul {
   background-color: var(--color-night);
   padding: 60px 0;
 }
-.footer-list {
+.address {
   margin-top: 20px;
 }
 .footer-list li:not(:last-child) {

@@ -144,6 +144,9 @@ ul {
 .portfolio-table-item {
   display: block;
 }
+.portfolio-table-item img {
+  display: block;
+}
 
 .portfolio-table-item__title {
   color: var(--color-black);
@@ -173,7 +176,7 @@ ul {
   background-color: var(--color-night);
   padding: 60px 0;
 }
-.footer-list {
+.address {
   margin-top: 20px;
 }
 .footer-list li:not(:last-child) {
